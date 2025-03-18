@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2>Faça Seu Login</h2>
+        </header>
+
+        <label class="label">Email</label> <input class="input" type="email" required placeholder="Digite Seu Email">
+        <label class="label">Senha</label> <input id="senha" class="input" type="password" required placeholder="Digite Sua Senha">
+
+        <hr>
+        <span class="span"><input type="checkbox"> <label class="font-size">Lembrar Senha</label> <a class="font-size" href="google.com">Esqueceu a Senha?</a></span>
+
+        <button class="button" type="button" onclick="logar()">Fazer Login</button>
+    </div>
+
+
+    <script>
+        function logar(){
+            senha = getElementById.value("senha")
+            if(senha === 123){
+                window.alert("Sucesso")
+            }
+            else{
+                window.alert("Senha Incorreta")
+            }
+        }
+
+        // Terminar a função de validação
+    </script>
+</body>
+</html>
