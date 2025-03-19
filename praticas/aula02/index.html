@@ -20,13 +20,17 @@
         <span class="span"><input type="checkbox"> <label class="font-size">Lembrar Senha</label> <a class="font-size" href="google.com">Esqueceu a Senha?</a></span>
 
         <button class="button" type="button" onclick="logar()">Fazer Login</button>
+        <span class="span_novo_cadastro">
+            <label>Ainda não tem conta?</label>
+            <a href="cadastro.html">Cadastre-se</a>
+        </span>
     </div>
 
 
     <script>
         function logar(){
-            senha = getElementById.value("senha")
-            if(senha === 123){
+            const senha = document.getElementById('senha').value
+            if(senha == 123){
                 window.alert("Sucesso")
             }
             else{
