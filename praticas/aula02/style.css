@@ -11,7 +11,8 @@ body {
     align-items: center;
     padding: 5rem;
 }
-.social-media{
+
+.social-media {
     margin-top: 2rem;
     text-align: center;
     display: flex;
@@ -20,16 +21,17 @@ body {
     width: 11rem;
 }
 
-.social-media .icons{
+.social-media .icons {
     width: 2rem;
     border-radius: 50%;
     cursor: pointer;
 }
 
-.social-media .icons:hover{
+.social-media .icons:hover {
     box-shadow: 5px 7px 5px 3px #bfbebe;
     transition: 1s;
 }
+
 .container {
     width: 393px;
     height: 70vh;
@@ -67,7 +69,7 @@ body {
     color: #7a7777;
 }
 
-.font-size:hover{
+.font-size:hover {
     color: rgb(0, 0, 0);
 }
 
