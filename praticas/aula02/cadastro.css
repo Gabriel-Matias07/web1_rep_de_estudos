@@ -25,7 +25,7 @@ body{
     box-shadow: 5px 7px 5px 3px #bfbebe;
 }
 
-.container h1{
+.container h2{
     text-align: center;
 }
 
@@ -53,7 +53,7 @@ body{
 .caixa-inputs{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
+    margin-top: 3rem;
     height: 20vh;
     width: 50%;
     padding: 2.5rem;
@@ -73,18 +73,30 @@ body{
 }
 
 .button{
-    width: 17REM;
+    width: 17rem;
     height: 2.5rem;
     padding: 0.5rem;
     border-radius: 30px;
     border: none;
     background-color: #D9D9D9;
-    margin-top: 5rem;
     box-shadow: 3px 5px 3px 1px #bfbebe;
     cursor: pointer;
+}
+
+#button_cadastrar{
+    margin-top: 2.3rem;
 }
 
 .button:hover{
     transition: 1s;
     box-shadow: 5px 7px 5px 3px #7a7777;
+}
+
+.buttons{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
 }
