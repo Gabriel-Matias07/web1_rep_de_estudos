@@ -5,8 +5,6 @@ Repositório com materiais e códigos (criados por mim e minha esposa) da discip
 ## Estrutura de Diretórios
 
 ```
-WEB1_REP_DE_ESTUDOS/
-|
 |-- aulas/
 |   |-- aula01/
 |   |   |-- documentos/
